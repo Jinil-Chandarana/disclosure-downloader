@@ -18,7 +18,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import traceback
 
 # === Config ===
-USER_SPECIFIED_DEFAULT_DOWNLOAD_PATH = "G:\\UsersMy Drive\\0investment\\0ravi"
+USER_SPECIFIED_DEFAULT_DOWNLOAD_PATH = "G:\\UsersMy Drive\\0investment\\0ravi\\Promoter Data for sheet"
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 CREDENTIALS_FILE = 'credentials.json'
 TOKEN_FILE = 'token.json'
@@ -462,14 +462,7 @@ def main(page: ft.Page):
                 ),
                 send_button,
                 ft.Divider(height=15, color=ft.Colors.BLACK26),
-                # ft.Container(
-                #     content=status_label,
-                #     padding=ft.padding.all(10),
-                #     border=ft.border.all(1, ft.Colors.OUTLINE),
-                #     border_radius=ft.border_radius.all(5),
-                #     height=300,
-                #     width=page.window_width - 40 if page.window_width else 710,
-                # ),
+               
             ],
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
