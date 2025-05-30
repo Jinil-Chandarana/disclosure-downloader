@@ -18,7 +18,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import traceback
 
 # === Config ===
-USER_SPECIFIED_DEFAULT_DOWNLOAD_PATH = "G:\\UsersMy Drive\\0investment\\0ravi\\Promoter Data for sheet"
+USER_SPECIFIED_DEFAULT_DOWNLOAD_PATH = "G:\\My Drive\\0investment\\0ravi\\Promoter Data for sheet"
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 CREDENTIALS_FILE = 'credentials.json'
 TOKEN_FILE = 'token.json'
